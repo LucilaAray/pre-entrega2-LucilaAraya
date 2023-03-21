@@ -284,7 +284,7 @@ opacity: 0.8;
 .informacion-contacto {
   text-align: right;
 }
-@media screen and (max-width:720px) {
+@media(min-width:320px)and (max-width:768px) {
   .contenedor .main{
     grid-column: 1/-1;
   }
@@ -292,7 +292,7 @@ opacity: 0.8;
     grid-column: 1/-1;
   }
   .contenedor .seccion1-presentacion{
-    grid-column: 1/1;
+    grid-column: 1/-1;
   }
   .contenedor .seccion2-turnos{
     grid-column: 1/-1;
@@ -306,6 +306,7 @@ opacity: 0.8;
   .grid-container{
   grid-template-rows: repeat(12,1fr);
 }
+}
   .footer{
     flex-direction: column;
     width:auto;
@@ -313,6 +314,6 @@ opacity: 0.8;
     background-color:var(--theme-color);
     overflow: auto;
   }
-}
+
 
 /************FIN INDEX**************/
