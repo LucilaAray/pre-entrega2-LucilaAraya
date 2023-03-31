@@ -1,8 +1,8 @@
 /*main*/
 :root{
-    --theme-color:  #e57d90;
-    --primary-color:#f1d6ed;
-    --secundary-color:#f88ac1;
+    --theme-color:  #982c43;
+    --primary-color:#fecbf6;
+    --secundary-color:#f8d2e5;
     --text-color-inverse:white;
     --text-color:#e6a6d6;
     --navbar-shallow-color:#e5e5e5;
@@ -10,7 +10,7 @@
   }
   body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffcdd4;
+    background-color: rgb(255, 189, 228);
     color: var(--text-color);
     padding-top: 70px;
   }
@@ -164,7 +164,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--theme-color);
+    background-color: #982c43;
     color: #e6a6d6;
     list-style-type: none;
     padding: 70px;
@@ -212,102 +212,7 @@
   }
   
   /************STYLOS**************/
- /* .img-principal {
-    max-width: 100%;
-    height: auto;
-  }*/
-  .main{
-    background-size: cover;
-    width: 564px;
-    height: 705px;
-  }
-  .sidebar{
-    width: 564px;
-    height: 705px;
-    background-image: url("../images/margaret.jpg");
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: -5px 3px 0px rgba(14,14,14,0.6);
-    font-family:Phudu;
-    padding: 10% 0% 45% 0%;
-    
-  }
-  .sidebar h1{
-    font-size: 80px;
-  }
-
-  .seccion1-presentacion{
-    opacity: 0.8;
-    text-align: center;
-    border: 5px outset #f88ac1;
-  }
-  .seccion1-presentacion h2{
-    color: #FFFFFF;
-    text-shadow: -3px -4px 5px rgba(24,24,24,0.6);
-    font-family:Phudu;
-  }
-  .seccion1-presentacion p{
-    color: white;
-  }
-   .seccion2-turnos{
-    background-color: var(--primary-color);
-    background-image: url(../images/sacar-PhotoRoom.png-PhotoRoom.png);
-    border-radius: 5px;
-    opacity: 0.8;
-    padding:8% 0px;
-    text-align: center;
-    border: 8px outset #f88ac1;
-  }
-.seccion2-turnos h1{
-    color: #FFFFFF;
-    text-shadow: -3px -4px 0px rgba(238,103,138,0.6);
-    font-family:Phudu;
-}
-.servicios h1{
-  color: #FFFFFF;
-    text-shadow: -3px -4px 0px rgba(238,103,138,0.6);
-    font-family:Phudu;
-}
-.seccion3-encontranos{
-  height:600px;
-  padding-top:10%;
-  margin-bottom: 1px;
-  border: 5px outset #f88ac1;
-}
-.img-encontranos{
-  width: 531px;
-  height:600px;
-  border: 5px outset #f88ac1;
-}
-.pestañas{
-  width: 600px;
-  height: 600px;
-}
-#bg-card{
-  background-color:var(--primary-color);
-  box-shadow: 15px -8px 11px 5px rgba(240,92,114,0.6);
-  -webkit-box-shadow: 15px -8px 11px 5px rgba(240,92,114,0.6);
-  -moz-box-shadow: 15px -8px 11px 5px rgba(240,92,114,0.6);
-}
-
-.card-title{
-  color: #FFFFFF;
-  text-shadow: -1px -3px 2px rgba(238,60,60,0.6);
-  font-family:Phudu;
-}
-
-.card-text{
-  color: #FFFFFF;
-}
-.btn-card{
-  background-color: var(--theme-color);
-}
-
-
-#bg-turnos{
-  background-color:rgb(224, 218, 189);
-}
-
+  
     #bg-row{
     background-color: var(--theme-color);
     border-radius: 5px;
@@ -332,10 +237,12 @@
     padding: 112px;
   }
 
-  #bg-form {
+  #bg-form{
     background-color: var(--theme-color);
     border-radius: 5px;
   }
+
+
 
 
 
