@@ -86,7 +86,7 @@
     top: 100%;
     width: 100%;
     height: 4px;
-  opacity: 0;
+    opacity: 0;
     transition:opacity 3s ;
   }
   .menu a.selected::after,
@@ -158,19 +158,16 @@
    }
    /*fin barra menu*/
 
-
+   /*footer*/
    .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--theme-color);
     color: white;
-    background-image: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 40%, #FF99AC 66%, #ffffff 100%);
-    list-style-type: none;
-    padding: 70px;
+    background-image: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 40%, #FF99AC 66%, #ffffff 110%);
+    padding: 100px;
     margin-top:2%;
-    list-style-type: none;
-    z-index: 1;
   }
   .footer ul{
     list-style: none;
@@ -204,7 +201,6 @@
     }
     .footer{
       flex-direction: column;
-      width:auto;
       align-items: center;
       background-color:var(--theme-color);
       overflow: auto;
@@ -212,18 +208,6 @@
   }
   
   /************STYLOS**************/
- /* .img-principal {
-    max-width: 100%;
-    height: auto;
-  }*/
-  /*.main{
-    background-image:url(../images/fondo-box.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 705px;
-    padding: auto;
-  } */
   .img-principal{
     width: 531px;
     height: 705px;
@@ -233,28 +217,25 @@
   .sidebar{
     max-width: 100%;
     width: 541px;
-    height: 705px;
+    height: 650px;
     background-image: url("../images/margaret.jpg");
-    padding: 10% 0% 45% 0%;
     border: 8px outset #f88ac1;
     
   }
-  .sidebar h1{
-    font-family: Phudu;
-    font-size: 80px;
+  
+  .title-principal{
+    padding-top: 5%;
+    font-size: 70px;
+    color: rgb(229, 183, 183);
     font-weight: 200;
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 2pt;
-    word-spacing: 2.8pt;
-    line-height: 1.1;
-    color: black;
-    text-shadow: rgb(252, 250, 119) 0px 4px 0px, rgb(217, 26, 26) -3px 0px 7px;
-
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5rem;
   }
-
   .glitch{
-    font-size: 79px;
+    max-width: 100%;
+    font-size: 70px;
     color: white;
     animation: glitch 750ms infinite;
     font-weight: 700;
@@ -319,12 +300,10 @@
     }
     .containerGlitch{
       background-color: black;
-    background-image: url(../images/margaret2-PhotoRoom.png-PhotoRoom.png);
+    background-image: url(../images/margaretblack2.jpg);
     max-width: 100%;
     width: 541px;
     height: 705px;
-    
-    
     }
     
 
@@ -382,9 +361,6 @@
     border: solid 4px #ffffff;
     }
     
-    .servicios{
-      
-    }
   .servicios h1{
     font-family: Phudu;
     font-size: 50px;
@@ -399,6 +375,7 @@
   }
 
   .seccion3-encontranos{
+  background-color: #000000;
   height:600px;
   padding-top:10%;
   margin-bottom: 1px;
@@ -473,7 +450,11 @@
 
 
 #bg-turnos{
-  background-color:rgb(224, 218, 189);
+  background-color:black;
+}
+.bg-form{
+  background-color: #000000;
+  border-radius: 5px;
 }
 
     #bg-row{
@@ -488,34 +469,97 @@
       height: 110%;
       object-fit: cover;
   }
-  .bg-principal{
-    text-align: center;
-  }
-  
+
   #bg-col{
     background-color: var(--theme-color);
     border-radius: 5px;
     text-align: center;
   }
-
-    
-  .nosotras-texto{
-    padding: 112px;
+  .bg-principal{
+    text-align: center;
+  }
+  
+  .general-title{
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    letter-spacing: 15px;
+    word-spacing: 2.8pt;
+    line-height: 1.1;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -5px 3px 0px rgba(14,14,14,0.6);
+    font-family:Phudu;
   }
 
+  .img-nosotras{
+    height: 438px;
+    border: 6px ridge #000000; 
+  }
+    
+  .nosotras-texto{
+    height: 437px;
+    text-align: center;
+    background-color: #000000;
+  }
+
+  .img-equipo{
+    width:360px;
+    height:540px;
+    border-radius : 190px 190px 190px 190px;
+    border: 6px ridge #000000;  
+  }
+
+  .text-equipo{
+    padding: 3%;
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    color: #e5e5e5;
+    font-size: 20px;
+    font-size: phudu;
+    text-align: center;
+  }
+
+  /*Pagina 3*/
+  #img-servicios{
+    width: 361px;
+    height:361px;
+    border-radius: 5px;
+    border: 6px ridge #000000; 
+  }
+
+.text-servicios{
+  border-radius: 5px;
+  height:361px;
+  background: #000000;
+  background-color: black;
+  text-align: center;
+}
+.title-servicios{
+  background-color: #000000;
+    border-radius: 5px;
+    letter-spacing: 15px;
+    word-spacing: 2.8pt;
+    line-height: 1.1;
+    text-align: center;
+    color: #FFFFFF;
+    font-family:Phudu;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.text-pie-ser{
+  background-color: #000000;
+  border-radius: 5px;
+}
+.icon-redes{
+  font-size: 18px;
+}
   #bg-form {
     background-color: var(--theme-color);
     border-radius: 5px;
+
   }
 
-
-
-
-
-
-
-
-
-
-
+  
   
