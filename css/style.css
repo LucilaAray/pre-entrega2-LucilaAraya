@@ -162,7 +162,7 @@ a {
   align-items: center;
   background-color: var(--theme-color);
   color: white;
-  background-image: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 40%, #FF99AC 66%, #ffffff 110%);
+  background-image: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 40%, #FF99AC 66%, #faf4f3 110%);
   padding: 100px;
   margin-top: 2%;
 }
@@ -171,17 +171,16 @@ a {
 }
 
 .redes-sociales {
+  color: #e5e5e5;
   text-align: left;
 }
 
-.informacion-contacto {
-  text-align: right;
-}
 
 @media screen and (max-width: 768px) {
   .contenedor .main, .contenedor .sidebar, .contenedor .seccion1-presentacion, .contenedor .seccion2-turnos, .contenedor .servicios, .contenedor .encontranos {
     grid-column: 1/-1;
   }
+
   .footer {
     flex-direction: column;
     align-items: center;
@@ -273,6 +272,7 @@ a {
 .seccion1-presentacion {
   background-color: #e57d90;
   padding-top: 3%;
+  border-radius: 5px;
 }
 .seccion1-presentacion h2 {
   color: #FFFFFF;
@@ -291,6 +291,7 @@ a {
   padding: 7% 0px;
   text-align: center;
   border: 8px outset #f88ac1;
+  border-radius: 5px;
 }
 .seccion2-turnos h1 {
   color: #FFFFFF;
@@ -323,31 +324,20 @@ a {
   border: solid 4px #ffffff;
 }
 
-.servicios h1 {
-  font-family: Phudu;
-  font-size: 50px;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  letter-spacing: 15px;
-  word-spacing: 2.8pt;
-  line-height: 1.1;
-  color: #FFFFFF;
-  text-shadow: -5px 3px 0px rgba(14, 14, 14, 0.6);
-}
-
 .seccion3-encontranos {
   background-color: #000000;
   height: 600px;
   padding-top: 10%;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
   border: 5px outset #f88ac1;
+  border-radius: 5px;
 }
 
 .img-encontranos {
   width: 531px;
   height: 600px;
   border: 5px outset #f88ac1;
+  border-radius: 5px;
 }
 
 .pestañas {
